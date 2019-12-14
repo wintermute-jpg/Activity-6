@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<style>
+    #main-bio{
+        float:left;
+        width: 70%;
+    }
+    #contact-info{
+        float:left;
+        width: 30%;
+    }
+    #bio-image{
+        float:left;
+        width:"200px";
+    }
+
+    body{
+        background-color: #efeee7;
+        font-family: Georgia"Times New Roman",Times,serif;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        background-color: #333333
+    }
+    
+    h1{
+        color: #eee;
+        font-size: "28px";
+    }
+    h2{
+        font-size:"24px";
+    }
+    
+    .container{
+        width: "1024px";
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Your Name</h2>
+
+      <img src="https://placehold.it/200x200" alt="Your Name" id="bio-image">
+
+      <p id="main-bio">Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section>
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
+</html>
